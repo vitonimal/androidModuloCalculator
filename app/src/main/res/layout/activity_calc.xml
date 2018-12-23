@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <EditText
+        android:id="@+id/operandAInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="@string/operand_a"/>
+    <EditText
+        android:id="@+id/operandBInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="@string/operand_b"/>
+    <Button
+        android:id="@+id/moduloSubmit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/modulo_button_name" />
+    <EditText
+        android:id="@+id/resultDisplay"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="@string/result_text"
+        android:clickable="false"/>
+
+
+</TableLayout>

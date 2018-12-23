@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ModuloCalculator</string>
+    <string name="operand_a">Operand A</string>
+    <string name="operand_b">Operand B</string>
+    <string name="modulo_button_name">Modulo</string>
+    <string name="result_text">Result</string>
+</resources>

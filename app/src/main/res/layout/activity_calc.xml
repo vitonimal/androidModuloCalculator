@@ -27,7 +27,8 @@
         android:layout_width="match_parent"
         android:inputType="number"
         android:hint="@string/result_text"
-        android:clickable="false"/>
+        android:enabled="false"
+        android:focusable="false"/>
 
 
 </TableLayout>

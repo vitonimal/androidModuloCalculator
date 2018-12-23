@@ -8,12 +8,12 @@ import android.widget.EditText;
 
 public class CalcActivity extends AppCompatActivity {
 
-    EditText operandAInput;
-    EditText operandBInput;
-    EditText resultDisplay;
-    Button moduloSubmit;
+    private EditText operandAInput;
+    private EditText operandBInput;
+    private EditText resultDisplay;
+    private Button moduloSubmit;
 
-    View.OnClickListener moduloListener = new View.OnClickListener() {
+    private View.OnClickListener moduloListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             int operandA = Integer.valueOf(operandAInput.getText().toString());
